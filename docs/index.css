@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&display=swap');
+
+.circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+}
+
+body{
+  background-color: hsl(0, 0%, 100%);
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  background-color: hsl(212, 45%, 89%);
+  margin: 1em;
+  padding: 1em;
+  padding-bottom: 1em;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  height: 355px;
+  flex: 1 200px;
+  
+  //float: left;
+}
+
+.qr-code-image {
+  padding: 5px 5px 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  //border: 40px solid hsl(0, 0%, 100%) ; 
+}
+
+.qr-code-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color:  hsl(218, 44%, 22%);
+  text-align: center;
+  font-size: 12px;
+  margin: 1px 10px 1px 8px;
+  padding: 0.1px;
+}
+
+.subtitle {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  margin: 0.1px;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 8px;
+}
+
+
+.box {
+height: 250px;
+width: 170px;
+padding: auto;
+margin: auto;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+background: hsl(0, 0%, 100%);
+box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+//.float-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 1em;
+  margin: 0 auto;
+ max-width: var(--max-width);
+//}
