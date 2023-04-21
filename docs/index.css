@@ -27,7 +27,6 @@ body{
   height: 355px;
   flex: 1 200px;
   
-  //float: left;
 }
 
 .qr-code-image {
@@ -38,7 +37,6 @@ body{
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  //border: 40px solid hsl(0, 0%, 100%) ; 
 }
 
 .qr-code-text {
@@ -76,11 +74,3 @@ box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
 
 }
 
-//.float-box {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 1em;
-  margin: 0 auto;
- max-width: var(--max-width);
-//}
