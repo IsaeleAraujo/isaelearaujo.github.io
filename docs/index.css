@@ -20,7 +20,7 @@ body{
 .container{
   background-color: hsl(212, 45%, 89%);
   margin: 1em;
-  padding: 1em;
+  padding: 32px;
   padding-bottom: 2em;
   justify-content: center;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
