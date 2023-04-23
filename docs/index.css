@@ -19,8 +19,8 @@ body{
 
 .container{
   background-color: hsl(212, 45%, 89%);
-  margin: 10em;
-  padding: 1em;
+  margin: 8em;
+  padding: 8em;
   justify-content: center;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
   width: 900px;
