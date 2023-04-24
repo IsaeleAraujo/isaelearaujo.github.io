@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&display=swap');
 
-.circle {
-  background: lightblue;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin: 1px;
-}
+
 
 body{
-  background-color: hsl(0, 0%, 100%);
+  background-color:hsl(0, 12%, 93%);
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
@@ -19,14 +13,14 @@ body{
 
 .container{
   background-color: hsl(212, 45%, 89%);
-  margin: 8em;
-  padding: 8em;
+  margin-top: 5em;
+  margin-left: 1em;
+  padding-top: 5em;
   justify-content: center;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
-  width: 900px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+  width: 1440px;
   height: 440px;
   flex: 1 200px;
-  
 }
 
 .qr-code-image {
@@ -61,7 +55,7 @@ body{
 
 
 .box {
-height: 150px;
+height: 260px;
 width: 170px;
 padding: auto;
 margin: auto;
