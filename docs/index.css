@@ -8,19 +8,24 @@
  --dark-blue: hsl(218, 44%, 22%);
 }
 
-
+* { /* this centralised all elements*/
+padding: 0; 
+margin: 0; 
+}
 
 body{
   background: var(--light-gray);
   display: flex;
+  width: 100%;
 }
 
 .container{
   background: var(--white);
   border-radius: 10px;
   text-align: center;
-  width: 1440px;
-  height: 640px;
+  width: 190;
+  position: relative;
+  inset: 50% 0 0 50%; /*It defines an inset rectangle.*/
   display: flex;
 }
 
@@ -56,7 +61,7 @@ body{
 }
 
 
-.box {
+/*.box {
 height: 400px;
 width: 270px;
 padding: auto;
