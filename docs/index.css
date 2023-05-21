@@ -1,16 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&display=swap');
+:root {
+ --Outfit-family: Outfit, sans-serif;
+ --light-weight: 400;
+ --bold-weight: 700;
+ --white: hsl(0, 0%, 100%);
+ --light-gray: hsl(212, 45%, 89%);
+ --grayish-blue: hsl(220, 15%, 55%);
+ --dark-blue: hsl(218, 44%, 22%);
+}
 
 
 
 body{
-  background-color:hsl(0, 12%, 93%);
-  margin: auto;
+  background: var(--light-gray);
   display: flex;
-  justify-content: center;
 }
 
 .container{
-  background-color: hsl(212, 45%, 89%);
+  background: var(--white);
+  border-radius: 10px;
   text-align: center;
   width: 1440px;
   height: 640px;
@@ -35,9 +42,6 @@ body{
   font-size: 16px;
   display: flex;
   z-index: 2;
-  position: relative;
-  left: 200px;
-  top: 32px;
   white-space: nowrap;
 }
 
