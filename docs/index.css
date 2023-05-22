@@ -1,76 +1,68 @@
-:root {
- --Outfit-family: Outfit, sans-serif;
- --light-weight: 400;
- --bold-weight: 700;
- --white: hsl(0, 0%, 100%);
- --light-gray: hsl(212, 45%, 89%);
- --grayish-blue: hsl(220, 15%, 55%);
- --dark-blue: hsl(218, 44%, 22%);
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&display=swap');
 
-* { /* this centralised all elements*/
-padding: 0; 
-margin: 0; 
-}
+
 
 body{
-  background: var(--light-gray);
-  display: flex;
+  background-color:hsl(0, 12%, 93%);
   width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 
 .container{
-  background: var(--white);
-  border-radius: 10px;
-  text-align: center;
-  width: 190;
-  position: relative;
-  inset: 50% 0 0 50%; /*It defines an inset rectangle.*/
-  display: flex;
+  background-color: hsl(212, 45%, 89%);
+  justify-content: center;
+  width: 85%;
+  height: 590px;
+  margin: auto;
+  padding: auto;
 }
 
 .qr-code-image {
   width: 250px;
-  height: 250px;
-  z-index: 2;
   display: flex;
   border-radius: 10px;
-  position: relative;
-  left: 520px;
-  top: 130px;
+  margin-top: 5px;
 }
 
 .qr-code-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
-  color:hsl(218, 44%, 22%);
-  font-size: 16px;
-  display: flex;
-  z-index: 2;
-  white-space: nowrap;
+  color:  hsl(218, 44%, 22%);
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  padding: auto;
 }
 
 .subtitle {
   font-family: 'Outfit', sans-serif;
   color: hsl(220, 15%, 55%);
   text-align: center;
-  margin: 0.1px;
-  padding: 8px;
+  margin: auto;
+  padding: auto;
   font-weight: 500;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 
-/*.box {
-height: 400px;
+.box {
+height: 370px;
 width: 270px;
 padding: auto;
 margin: auto;
 display: flex;
+justify-content: center;
 border-radius: 10px;
 background: hsl(0, 0%, 100%);
 box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
-position: relative;
-right: 460px;
+
+
 }
 
+.attribution {
+  position: relative;
+  top: 130px;
+  left: 350px;
+  display: flex;
+}
